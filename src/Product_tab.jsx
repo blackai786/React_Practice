@@ -1,15 +1,19 @@
 import Product from "./Product.jsx";
 
 function ProductTabs() {
+  let styles = {
+    display:"flex",
+    flex:"flexWrap",
+    justifyContent:"center",
+    alignItems :"center"
+  };
   return (
-    <>
-      <Product title="Laptop" price={90000} />
-      <Product
-        title="phone"
-        price={20000}
-      />
-      <Product title="pen" price={9} />
-    </>
+    <div style={styles}>
+      <Product title="Logitech Mx Master 3S" idx={0} />
+      <Product title="Apple Pencil(2nd Gen)" idx={1} />
+      <Product title="Zebronics Zeb-Transformer" idx={2} />
+      <Product title="Portronics Toad 23 Wireless Mouse" idx={3} />
+    </div>
   );
 }
 

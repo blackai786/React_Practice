@@ -1,13 +1,12 @@
 import "./App.css";
 import ProductTab from "./Product_tab.jsx";
-import MsgBox from "./MsgBox.jsx";
+
 
 function App() {
   return (
     <>
+      <h2>Blockbuster Deals on Computer Acessories | Shop Now</h2>
       <ProductTab />
-      <MsgBox userName="ShaikhSahil" textColor="yellow" />
-      <MsgBox userName="salim" textColor="red" />
     </>
   );
 }
